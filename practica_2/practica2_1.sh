@@ -6,7 +6,7 @@ read var1
 lectura="-"
 escritura="-"
 ejecucion="-"
-if [ -f $var1 ]
+if [ -f "$var1" ]
 then
 if [[ -r "$var1" ]]; then
 	lectura="r"
