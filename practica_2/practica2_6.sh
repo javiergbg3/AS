@@ -4,8 +4,8 @@
 num=0
 DIR=$(ls $HOME/* -d -t | egrep 'bin[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9]' | tail -1)
 if [ -z "$DIR" ] ; then
-	mktemp "$HOME/binAAA"
-	directorio="$HOME/binAAA"
+	mktemp "$HOME/binXXX"
+	directorio="$HOME/binXXX"
 fi
 echo "Directorio destino de copia: $DIR"
 for i in $(ls); do
