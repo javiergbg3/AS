@@ -1,5 +1,6 @@
-#Javier Gonzalez Blanco 815579 Alex Garcia Rodriguez 817567
 #!/bin/bash
+#815579, Gonzalez Blanco, Javier, [T], [1], [B]
+#817567, García Rodríguez, Alex, [T], [1], [B]
 lec="-"
 esc="-"
 ej="-"
