@@ -12,7 +12,7 @@ for i in $(ls); do
 if [[ -x "$i" && -f "$i" ]]; then
 num=$(expr $num + 1)
 cp "$i" "$DIR"
-echo "$i ha sido copiado a $DIR"
+echo "./$i ha sido copiado a $DIR"
 fi
 done
 if [ $num -eq 0 ] ; then
