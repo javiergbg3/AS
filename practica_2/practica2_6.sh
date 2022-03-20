@@ -11,7 +11,7 @@ echo "Directorio destino de copia: $DIR"
 for i in $(ls); do
 if [[ -x "$i" && -f "$i" ]]; then
 num=$(expr $num + 1)
-cp "./$i" "$DIR/$i"
+cp "$i" "$DIR"
 echo "$i ha sido copiado a $DIR"
 fi
 done
