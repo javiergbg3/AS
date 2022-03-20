@@ -1,5 +1,5 @@
+#Javier Gonzalez Blanco 815579 Alex Garcia Rodriguez 817567
 #!/bin/bash
-
 lec="-"
 esc="-"
 ej="-"
