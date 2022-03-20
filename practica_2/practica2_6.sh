@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 #!/bin/bash
 #815579, Gonzalez Blanco, Javier, [T], [1], [B]
 #817567, García Rodríguez, Alex, [T], [1], [B]
@@ -22,4 +20,3 @@ echo "No se ha copiado ningun archivo"
 else
 echo "Han sido copiados $num ficheros"
 fi
->>>>>>> 172faf62181c943bcdfd170c0631ccebc22fffe9
