@@ -1,7 +1,7 @@
 #!/bin/bash
 #815579, Gonzalez Blanco, Javier, [T], [1], [B]
 #817567, García Rodríguez, Alex, [T], [1], [B]
-echo "Introduzca una tecla:"
+echo "Introduzca una tecla: "
 read tecla
 char=$(echo "$tecla" | cut -c1)
 if [[ $char == [A-Za-z] ]]; then
