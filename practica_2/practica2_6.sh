@@ -18,5 +18,5 @@ done
 if [ $num -eq 0 ] ; then
 echo "No se ha copiado ningun archivo"
 else
-echo "Han sido copiados $num ficheros"
+echo "an sido copiados $num ficheros"
 fi
