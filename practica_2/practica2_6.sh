@@ -6,6 +6,7 @@ DIR=$(ls $HOME/* -d -t | egrep 'bin[a-zA-Z0-9][a-zA-Z0-9][a-zA-Z0-9]' | tail -1)
 if [ -z "$DIR" ] ; then
 	mktemp -d "$HOME/binXXX"
 	directorio="$HOME/binXXX"
+	echo "Se ha creado el directorio $directorio"
 fi
 echo "Directorio destino de copia: $DIR"
 for i in $(ls); do
